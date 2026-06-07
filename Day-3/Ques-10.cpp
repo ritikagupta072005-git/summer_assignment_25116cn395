@@ -1,12 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-int n,i,j;
+int n1,n2,i,j;
 
-cout<<"enter range:";
-cin>>n;
+cout<<"enter lowest value:";
+cin>>n1;
 
-for(i=2;i<=n;i++){
+cout<<"enter highest value:";
+cin>>n2;
+
+for(i=n1;i<=n2;i++){
 for(j=2;j<i;j++){
 if(i%j == 0){
     break;
@@ -21,6 +24,7 @@ if(j==i){
 return 0;
 
 }
+
 
 
 
