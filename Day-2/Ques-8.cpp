@@ -2,17 +2,17 @@
 using namespace std;
 
 int main(){
-int i,n,digit=0,reverse=0;
+int temp,n,digit=0,reverse=0;
 cout<<"Enter the number:";
 cin>>n;
-i=n;
-while(i>0){
-digit=i%10;
+temp=n;
+while(n>0){
+digit=n%10;
 reverse=reverse*10+digit;
-i=i/10;
+n=n/10;
 
 }
-if( reverse == n){
+if( reverse == temp){
     cout<<"the number is palindrome"<<endl;
 }
 else{
