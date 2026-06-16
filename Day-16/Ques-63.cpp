@@ -19,19 +19,18 @@ int main() {
 
     bool found = false;
 
-    // Check every possible pair
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
 
             if (arr[i] + arr[j] == target) {
                 cout << "Pair found: " << arr[i] << " " << arr[j];
                 found = true;
-                break;   // Exit inner loop
+                break;   
             }
         }
 
         if (found)
-            break;       // Exit outer loop
+            break;      
     }
 
     if (!found) {
