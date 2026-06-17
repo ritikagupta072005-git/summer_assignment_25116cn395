@@ -22,7 +22,6 @@ int main() {
     for (i = 0; i < size2; i++) {
         cin >> b[i];
     }
-
     cout << "Common elements: ";
 
     for (i = 0; i < size1; i++) {
