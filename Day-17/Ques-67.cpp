@@ -1,7 +1,5 @@
 // Write a program to find Intersection of two arrays.
 
-// Write a program to Find Intersection of Two Arrays.
-
 #include <iostream>
 using namespace std;
 
