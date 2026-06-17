@@ -48,6 +48,5 @@ int main() {
     for (i = 0; i < k; i++) {
         cout << c[i] << " ";
     }
-
     return 0;
 }
