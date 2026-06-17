@@ -2,7 +2,6 @@
 
 #include <iostream>
 using namespace std;
-
 int main() {
     int a[100], b[100], c[200];
     int size1, size2, i;
