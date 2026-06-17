@@ -25,7 +25,7 @@ int main() {
                 break;
             }
         }
-           if (!found) {
+           if (found == false) {
             cout << "Missing number is: " << i;
             break;
         }
