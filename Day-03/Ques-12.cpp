@@ -1,4 +1,4 @@
-//Write a program to Check whether a number is prime.
+//Write a program to find LCM of two number.
 
 #include<iostream>
 using namespace std;
