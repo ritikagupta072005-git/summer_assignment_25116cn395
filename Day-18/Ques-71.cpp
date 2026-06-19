@@ -19,17 +19,17 @@ cin >> target;
     low = 0;
     high = n - 1;
 
-    while(low <= high) {
+while(low <= high) {
         mid = (low + high) / 2;
 
-       if(a[mid] == target) {
+    if(a[mid] == target) {
             cout << "Index is " << mid;
             return 0;
         }
-        else if(a[mid] < target) {
+   else if(a[mid] < target) {
             low = mid + 1;
         }
-        else {
+  else {
             high = mid - 1;
         }
     }
