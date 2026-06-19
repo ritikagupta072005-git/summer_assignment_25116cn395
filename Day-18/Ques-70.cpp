@@ -1,6 +1,5 @@
 //Write a program to Selection sort.
 
-
 #include <iostream>
 #include <algorithm>
 using namespace std;
