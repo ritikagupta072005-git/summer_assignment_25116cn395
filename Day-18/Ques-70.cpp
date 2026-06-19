@@ -8,10 +8,10 @@ using namespace std;
 int main() {
     int arr[100], n;
 
-    cout << "Enter number of elements: ";
-    cin >> n;
+cout << "Enter number of elements: ";
+cin >> n;
 
-    cout << "Enter array elements: ";
+ cout << "Enter array elements: ";
     for(int i = 0; i < n; i++) {
         cin >> arr[i];
     }
@@ -19,7 +19,7 @@ int main() {
     for(int i = 0; i < n - 1; i++) {
         int smallestIndex = i;  
 
-        for(int j = i + 1; j < n; j++) {
+   for(int j = i + 1; j < n; j++) {
             if(arr[j] < arr[smallestIndex]) {
                 smallestIndex = j;  
             }
@@ -30,8 +30,8 @@ int main() {
         }
     }
 
-    cout << "Sorted array: ";
-    for(int i = 0; i < n; i++) {
+cout << "Sorted array: ";
+   for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
 
