@@ -1,21 +1,33 @@
 //Write a program to Count words in a sentence.
 
-#include <iostream>
+#include<iostream>
+#include<string>
 using namespace std;
-int main() {
-char str[100];
-int words = 1;
 
-cout << "Enter a sentence: ";
-cin.getline(str, 100);
+int main()
+{
+    string str;
+    cout<<"Enter the string : ";
+    getline(cin,str);
+    
+    int n= str.length();
 
-for (int i = 0; str[i] != '\0'; i++) {
+    int count = 0;
+    bool isword=false;
 
-    if (str[i] == ' ') {
-            words++;
+    for(char ch : str)
+    {  
+        if(ch !=' ' && !isword )  
+        {
+            isword=true;
+            count++;  
+        }
+        else if(ch == ' ') 
+        {
+            isword = false;
         }
     }
-cout << "Number of words = " << words;
-
+    
+    cout<<"Number of words = "<<count<<endl;
     return 0;
 }
